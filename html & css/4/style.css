@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#header-container {
+    background: #008040;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+#header {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#header-container h2 {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+#header-container p {
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+#content {
+    width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#content ol {
+    color: red;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#content ol li {
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+
+#content span {
+    color: black;
+    font-weight: normal;
+}
+
+#contacts-container {
+    background: #C60304;
+}
+
+#contacts {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#contacts h1 {
+    margin-top: 5px;
+}
+
+#company {
+    width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#company h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#clients-container {
+    background: #FF8040;
+}
+
+#clients {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+#clients-container {
+    text-align: center;
+    padding-top: 1px;
+    color: white;
+}
+
+#clients-container h1 {
+    margin-bottom: 5px;
+}
+
+img {
+    border: 1px solid black;
+    width: 220px;
+    height: 120px;
+}
+
+#footer {
+    background: #912F00;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+#footer-content {
+    padding-top: 170px;
+    margin: 0 auto;
+}

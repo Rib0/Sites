@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background: #EBEBEB;
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 20px;
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+
+#header p {
+    color: #999999;
+}
+
+#header h1 {
+    line-height: 0;
+    font-weight: normal;
+    font-family: Georgia, Times, serif;
+    font-size: 2.7em;
+}
+
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #EA9B23;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    width: 80px;
+    font-size: 1.2em;
+    color: #F7DAAF;
+}
+
+#nav ul li a:hover {
+    color: white;
+}
+
+img {
+    margin: 55px 0 20px 0;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#left {
+    width: 35%;
+}
+
+#right {
+    width: 62%;
+}
+
+#footer {
+    width: 100%;
+}
+
+
+.block ul {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.block ul li {
+    list-style-position: inside;
+    border-bottom: 1px solid #E9E9E9;
+    list-style-image: url(images/li.gif);
+    line-height: 40px;
+}
+
+.block h1 {
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+#right h1 {
+    font-size: 2.7em;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#content a,
+#footer a {
+    color: #F0A003;
+}
+
+#content {
+    padding: 0 30px 0 0px;
+    margin-top: 0;
+}
+
+#content p {
+    text-align: justify;
+}
+
+
+#content a:hover,
+#footer a:hover {
+    text-decoration: none;
+}
+
+#content p {
+    line-height: 30px;
+}
+
+
+.more {
+    margin-bottom: 50px;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    border: 1px solid #E9E9E9;
+    padding: 7px;
+    color: #F0A003;
+}
+
+.more:hover {
+    background: #FCF3E6;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+#footer {
+    line-height: 100px;
+    text-align: center;
+    border-top: 1px solid #E9E9E9;
+    margin-bottom: 30px;
+}
