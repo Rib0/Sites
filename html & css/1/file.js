@@ -6,14 +6,13 @@ let menu = document.getElementsByClassName("header__menu")[0],
     timerId = null;
 
 button.addEventListener("click", () => {
-    if (timerId) return;
-    timerId = setTimeout(() => {
-        timerId = null
-    }, 500);
-    if (!menu.clientHeight)
-    menu.style.height = menu.scrollHeight + "px";
+    if (!menu.classList.contains('opened')){
+		menu.style.height = menu.scrollHeight + "px";
+		menu.classList.add('opened')
+	}
     else {
         menu.style.height = "";
+		menu.classList.remove('opened');
     }
 
     first.classList.toggle("firstOpened");

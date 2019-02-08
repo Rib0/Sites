@@ -90,7 +90,7 @@ body{
     }
 
     .header__menu {
-        height: auto;
+        height: auto !important;
     }
 
     .menu__item {
