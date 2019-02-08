@@ -79,7 +79,7 @@ html {
     }
 
     .menu {
-        display: flex;
+        display: flex !important;
     }
 }
 

@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="header">
-        <span id="first-slogan">down the stream</span>
-        <span id="second-slogan">template designed by webtemplateocean.com</span>
-        <div class="clearfix"></div>
+    <div class="header">
+        <h1 class="header__logo">down the stream</h1>
+        <span class="header__info">template designed by webtemplateocean.com</span>
     </div>
-    <div id="wrapper">
-        <div id="nav">
-            <ul>
-                <li><a class="active" href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">HELP</a></li>
-                <li><a href="#">CONTACT</a></li>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="burger-menu">
+                <hr id="first">
+                <hr id="second">
+                <hr id="third">
+            </div>
+            <ul class="menu">
+                <li class="menu__item"><a href="#">home</a></li>
+                <li class="menu__item"><a href="#">about</a></li>
+                <li class="menu__item"><a href="#">gallery</a></li>
+                <li class="menu__item"><a href="#">help</a></li>
+                <li class="menu__item"><a href="#">contact</a></li>
             </ul>
         </div>
-        <img src="1.jpg" alt="forest">
-        <div id="content">
-            <div id="left">
-                <h1>terms of use</h1>
-                <p id="info">Posted in <a href="#">Class apent</a> | Sep 20, 2019 | <a href="#">4 comments</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetur.Creative Commons Attribution Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloremque accusantium eligendi et adipisci omnis quod ipsa, eum fugit tempore.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad debitis nihil molestiae maxime dolor at, distinctio tempora recusandae non vel nemo numquam similique fugiat harum neque autem cupiditate accusamus laboriosam perspiciatis. Officiis consequuntur sunt rerum nostrum odit, id consectetur, ratione.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, explicabo?PublicDomainPictures.net. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tempore, facilis aliquid reiciendis voluptatum possimus ea mollitia facere magnam quasi perspiciatis quas, eveniet iste dolores tempora culpa inventore placeat. Sequi, totam doloremque porro odit! Illo ratione consectetur aliquam dolorem esse!</p>
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <p id="info">Posted in <a href="#"> Lorem ipsum</a> | Sep 19, 2019 | <a href="#"> 2 comments</a></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui quis urna sollicitudin sodales. Fusce laoreet, ligula et rhoncus volutpat, felis magna varius tortor, ac molestie diam lorem in lectus. Aliquam venenatis mollis est, a porttitor ipsum interdum nec. Vestibulum sed risus ac nulla viverra pharetra.</p>
-                <p>Quisque congue lacus sed odio fermentum tincidunt. Proin vitae nulla velit. Cras consectetur commodo scelerisque. Curabitur leo nisl, blandit at tempus et, interdum at risus. Sed dui augue, pellentesque ac pulvinar id, malesuada eget diam. Integer elementum sem eget tortor faucibus id pellentesque lorem dignissim</p>
+        <div class="image-container">
+            <img src="images/1.jpg" alt="forest">
+        </div>
+        <div class="container">
+            <div class="main">
+                <h2>terms of use</h2>
+                <p class="data">Posted in <a href="#">Class apent</a> | Sep 20, 2019 | <a href="#">4 comments</a></p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur.Creative Commons Attribution Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloremque accusantium eligendi et adipisci omnis quod ipsa, eum fugit tempore.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad debitis nihil molestiae maxime dolor at, distinctio tempora recusandae non vel nemo numquam similique fugiat harum neque autem cupiditate accusamus laboriosam perspiciatis. Officiis consequuntur sunt rerum nostrum odit, id consectetur, ratione.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, explicabo?PublicDomainPictures.net. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tempore, facilis aliquid reiciendis voluptatum possimus ea mollitia facere magnam quasi perspiciatis quas, eveniet iste dolores tempora culpa inventore placeat. Sequi, totam doloremque porro odit! Illo ratione consectetur aliquam dolorem esse!
+                </p>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p class="data">Posted in <a href="#">Lorem ipsum</a> | Sep 19, 2019 | <a href="#">2 comments</a></p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui quis urna sollicitudin sodales. Fusce laoreet, ligula et rhoncus volutpat, felis magna varius tortor, ac molestie diam lorem in lectus. Aliquam venenatis mollis est, a porttitor ipsum interdum nec. Vestibulum sed risus ac nulla viverra pharetra.
+                </p>
+                <p>
+                    Quisque congue lacus sed odio fermentum tincidunt. Proin vitae nulla velit. Cras consectetur commodo scelerisque. Curabitur leo nisl, blandit at tempus et, interdum at risus. Sed dui augue, pellentesque ac pulvinar id, malesuada eget diam. Integer elementum sem eget tortor faucibus id pellentesque lorem dignissim
+                </p>
             </div>
-            <div id="right">
-                <div class="block">
-                    <h1>Saepe repellendus</h1>
-                    <p>Lorem ipsum dolor.</p>
-                    <hr>
-                    <p>Saepe repellendus, veniam!</p>
-                    <hr>
-                    <p>Repellendus laborum, sequi.</p>
-                    <hr>
-                    <p>Inventore laudantium, eos!</p>
-                    <hr>
-                    <p>Voluptate, ea, quaerat.</p>
-                    <hr>
+            <div class="aside">
+                <div class="block-wrapper">
+                    <div class="block">
+                        <div class="block__header">Saepe repellendus</div>
+                        <ul>
+                            <li><a href="#">Lorem ipsum dolor.</a></li>
+                            <li><a href="#">Saepe repellendus, veniam!</a></li>
+                            <li><a href="#">Repellendus laborum, sequi.</a></li>
+                            <li><a href="#">Inventore laudantium, eos!</a></li>
+                            <li><a href="#">Voluptate, ea, quaerat.</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="block">
-                    <h1>Integer rhoncus</h1>
-                    <p>Mauris sollicitudin tincidunt magna vitae semper. Curabitur ut pharetra quam. Integer rhoncus convallis urna vitae mattis. Sed pharetra massa ac metus fermentum et iaculis enim accumsan.</p>
+                <div class="block-wrapper">
+                    <div class="block block--second">
+                        <div class="block__header">Saepe repellendus</div>
+                        <p>
+                            Mauris sollicitudin tincidunt magna vitae semper. Curabitur ut pharetra quam. Integer rhoncus convallis urna vitae mattis. Sed pharetra massa ac metus fermentum et iaculis enim accumsan.
+                        </p>
+                    </div>
                 </div>
-                <div class="block">
-                    <h1>Mauris sagittis</h1>
-                    <p>Suspendisse faucibus purus</p>
-                    <hr>
-                    <p>Tincidunt nec accumsan</p>
-                    <hr>
-                    <p>Fusce laoreet, ligula et rhoncus</p>
-                    <hr>
-                    <p>Adipiscing gravida pulvinar eget</p>
-                    <hr>
-                    <p>Cras consectetur commodo</p>
-                    <hr>
+                <div class="block-wrapper">
+                    <div class="block">
+                        <div class="block__header">Saepe repellendus</div>
+                        <ul>
+                            <li><a href="#">Suspendisse faucibus purus</a></li>
+                            <li><a href="#">Tincidunt nec accumsan</a></li>
+                            <li><a href="#">Fusce laoreet, ligula et rhoncus</a></li>
+                            <li><a href="#">Adipiscing gravida pulvinar eget</a></li>
+                            <li><a href="#">Cras consectetur commodo</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="footer">
-                Copyright © 2012, designed by <a href="#">WebTemplateOcean.com</a>
             </div>
         </div>
+        <div class="footer">
+            Copyright © 2012, designed by <a href="#">WebTemplateOcean.com</a>
+        </div>
     </div>
+    <script src="file.js"></script>
 </body>
-
 </html>
